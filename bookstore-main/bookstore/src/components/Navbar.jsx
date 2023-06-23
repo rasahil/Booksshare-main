@@ -106,13 +106,13 @@ function NavListMenu() {
 function NavList() {
   return (
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 lg:pr-[40px] ">
+        <Link to="/">
       <Typography as="a"  variant="small" className="font-normal">
         <ListItem className="flex items-center gap-2 py-2 pr-10">
-        <Link to="/">
           HOME
-        </Link>
         </ListItem>
       </Typography>
+        </Link>
    
       <Typography as="a"  variant="small" className="font-normal">
         <ListItem className="flex items-center gap-2 py-2 pr-10">
@@ -120,11 +120,14 @@ function NavList() {
         </ListItem>
       </Typography>
 
+        <Link to="/donor">
       <Typography as="a"  variant="small" className="font-normal">
         <ListItem className="flex items-center gap-2 py-2 pr-10">
+        
           DONORS
         </ListItem>
       </Typography>
+          </Link>
 
       <Typography as="a"  variant="small" className="font-normal">
         <Link to="/blogpage">
@@ -136,13 +139,14 @@ function NavList() {
      
       <NavListMenu />
 
+        <Link to="/contactus">
       <Typography as="a"  variant="small" className="font-normal">
         <ListItem className="flex items-center gap-2 py-2 pr-10">
-        <Link to="/contactus">
           CONTACT US
-        </Link>
         </ListItem>
       </Typography>
+        </Link>
+        
       <Typography
         as="a"
         

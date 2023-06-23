@@ -130,9 +130,11 @@ function NavList() {
           </Link>
 
       <Typography as="a"  variant="small" className="font-normal">
+        <Link to="/blogpage">
         <ListItem className="flex items-center gap-2 py-2 pr-10">
           BLOGS
         </ListItem>
+        </Link>
       </Typography>
      
       <NavListMenu />

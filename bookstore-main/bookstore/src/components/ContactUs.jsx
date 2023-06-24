@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import { IoCallSharp } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
-import Footer from "./Fotter";
+
 import { Input, Textarea } from "@material-tailwind/react";
 import { socials } from "../utilities";
 
@@ -9,13 +9,13 @@ const ContactUs = () => {
   return (
     <>
       {/* // middle portion of content */}
-      <div className="p-[50px]">
+      <div className="p-[50px] ">
         <div className="lg:flex justify-between ">
-          <div className="p-[30px]  lg:text-8xl lg:ms-14 text-[35px] sm:-mt-[10px] text-center  font-[Libre-Caslon-Text]  text-[rgb(84,61,50)] ">
-            <p>
-              Let’s work <br />
-              Together !
-            </p>
+          <div className="p-[30px] lg:text-8xl lg:ms-14 text-[35px] sm:-mt-[10px] text-center  font-[Libre-Caslon-Text]  text-[rgb(84,61,50)] ">
+         
+              <p >Let’s work </p>
+              <p className="lg:mt-3"> Together !</p>
+            
           </div>
 
           <div className="p-[30px] p-">
@@ -130,7 +130,7 @@ const ContactUs = () => {
                 src={social.url}
                 alt={social.name}
                 key={social.name}
-                className="lg:text-[40px] bg-black  lg:-ms-5 me-5 text-[30px] cursor-pointer "
+                className="lg:text-[40px]   lg:-ms-5 me-5 text-[30px] cursor-pointer "
               />
             ))}
           </div>
@@ -140,7 +140,7 @@ const ContactUs = () => {
           
         </div>
       </div>
-      <Footer/>
+     
     </>
   );
 };

@@ -37,7 +37,7 @@ export default function Example() {
 
       {/* card row 1 */}
       <div className="bg-[#DDDDDD] mt-3 p-5"> 
-        <strong className="lg:ms-14 text-[22px] text-[blue] m-14 ">Competitive Book's</strong>
+        <strong className="lg:ms-28 text-[22px] text-[blue] m-14 ">Competitive Book's</strong>
 
         <div className="  grid lg:grid-cols-4 md:grid-cols-2 mt-3 sm:grid-cols-1 ">
           {/* card one */}
@@ -465,7 +465,7 @@ export default function Example() {
           <Card className="w-64 bg-[#FFFFFF] item-center mx-auto mb-5 ">
             <CardHeader shadow={false} floated={false}>
               <center>
-                <img src="./BooStore_Images/img13.png" className="w-[120px] h-[188px] " alt="img" />
+                <img src="./BooStore_Images/img13.webp" className="w-[120px] h-[188px] " alt="img" />
               </center>
             </CardHeader>
             <CardBody>
@@ -532,7 +532,7 @@ export default function Example() {
           <Card className="w-64 bg-[#FFFFFF] item-center  mx-auto mb-5">
             <CardHeader shadow={false} floated={false}>
               <center>
-                <img src="./BooStore_Images/img15.png" className="w-[120px] h-[188px] " alt="img" />
+                <img src="./BooStore_Images/img15.webp" className="w-[120px] h-[188px] " alt="img" />
               </center>
             </CardHeader>
             <CardBody>

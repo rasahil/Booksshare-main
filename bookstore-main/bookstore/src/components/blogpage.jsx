@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from './Fotter'
 
-const Blog = () => {
+
+const BlogPage = () => {
   return (
 
 <>
@@ -60,10 +60,10 @@ const Blog = () => {
 </div>
 </div>
 
-<div><Footer/></div>
+
     
     </>
   )
 }
 
-export default Blog
+export default BlogPage;

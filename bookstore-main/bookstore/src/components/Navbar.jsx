@@ -12,6 +12,8 @@ import {
   MenuHandler,
   MenuList,
   MenuItem,
+  Avatar,
+  Button,
   
 } from "@material-tailwind/react";
 import {
@@ -115,9 +117,11 @@ function NavList() {
         </Link>
    
       <Typography as="a"  variant="small" className="font-normal">
+        <Link  to="/aboutus">
         <ListItem className="flex items-center gap-2 py-2 pr-10">
           ABOUT US
         </ListItem>
+        </Link>
       </Typography>
 
         <Link to="/donor">
@@ -153,9 +157,29 @@ function NavList() {
         variant="small"
         className="font-normal"
       >
+        <Link to="/cart">
         <ListItem className="flex items-center gap-2 py-2 pr-10">
           <BsCart3 className="h-[18px] w-[18px]" />
         </ListItem>
+        </Link>
+      </Typography>
+      <Typography >
+       
+      <Menu>
+      <MenuHandler>
+        {/* <Button>Open Menu</Button> */}
+        <ListItem>
+      <Avatar src="./user-profile.png" alt="avatar" className="w-6 h-6 sm:items-center lg:-mt-2 "  variant="rounded" />
+      </ListItem>
+      </MenuHandler>
+      <MenuList>
+        <MenuItem>Edit </MenuItem>
+        <MenuItem>View</MenuItem>
+        <MenuItem>Logout</MenuItem>
+      </MenuList>
+    </Menu>
+
+      
       </Typography>
     </List>
   );
@@ -172,7 +196,7 @@ export default function Example() {
   }, []);
  
   return (
-    <Navbar className="sticky inset-0  z-10 block h-max w-full max-w-full rounded-none border border-white/80 bg-white bg-opacity-80 py-2 px-4 text-black shadow-md backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
+    <Navbar className="fixed inset-0  z-10 block h-max w-full max-w-full rounded-none border border-white/80 bg-white bg-opacity-80 py-2 px-4 text-black shadow-lg backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
       <div className="flex items-center justify-between text-white-900 lg:pl-10">
         
         <img src="./images/logo.jpeg" className='h-12' alt='LOGO' />
@@ -180,6 +204,8 @@ export default function Example() {
         <div className="hidden lg:block">
           <NavList />
         </div>
+      
+
       
         <IconButton
           variant="text"

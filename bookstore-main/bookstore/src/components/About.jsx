@@ -9,7 +9,7 @@ const About = () => {
    <center>
       
         <div className="w-100">
-            <img src="./images/About.jpeg" alt="about"/>
+            <img src="./images/About.jpeg" className="" alt="about"/>
         </div>
    </center>
    

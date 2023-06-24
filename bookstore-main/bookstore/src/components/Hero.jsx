@@ -1,11 +1,15 @@
+import { useState } from "react"
+import { Link } from "react-router-dom"
+
 const Hero = () => {
+  
   return (
     <section className="relative p-[25px]">
-    <div className="hero-container lg:p-[100px] sm:p-[10px]">
-    <div className="lg:flex flex-row-reverse ">
+    <div className="hero-container lg:p-[100px]  sm:p-[10px]">
+    <div className="lg:flex flex-row-reverse justify-between ">
 
         <div className=" md:ps-[200px] ">
-         <img className="shadow-2xl w-[400px] " src="./images/hero.png" alt="main" />
+         <img className="shadow-2xl w-[400px] " src="./images/heroup.png" alt="main" />
         </div>
         <div className="hero-text lg:w-[560px] ">
             <h1 className=" text-[50px]  leading-[50px] ">Remove the darkness by giving the light of knowledge</h1>
@@ -14,8 +18,9 @@ const Hero = () => {
                 we have lot of textbooks to offer you. we provide only the best books to you 
             </p>
             <div className="lg:w-[300px] flex justify-between p-5">
-           <button className="primary-button">Log In</button>
-           <button className="primary-button">Register</button>
+           <Link to="./Login"><button className="primary-button">Log In</button></Link>
+           <Link to="./register"><button className="primary-button">Register</button></Link>
+           
             </div>
         </div>
     </div>

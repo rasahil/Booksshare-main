@@ -1,20 +1,20 @@
 export const socials = [
     {
       name: 'twitter',
-      url: '/images/twitter.svg',
+      url: './twitter.png',
 
     },
     {
       name: 'linkedin',
-      url: '/images/linkedin.svg',
+      url: './linkedin.png',
     },
     {
       name: 'instagram',
-      url: './images/instagram.svg',
+      url: './instagram.png',
     },
     {
       name: 'facebook',
-      url: './images/facebook.svg',
+      url: './facebook.png',
     },
   ];
 

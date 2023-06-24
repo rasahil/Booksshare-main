@@ -10,7 +10,7 @@ import {
 import { Carousel } from "@material-tailwind/react";
 
 
-export default function Donor() {
+export default function DonorC() {
   return (
     <><div>
  <Carousel transition= { {type: "tween", duration:2} } autoplay='true' loop className="rounded-xl"  style={{height:'30vmax'}} >

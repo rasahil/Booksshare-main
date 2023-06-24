@@ -15,7 +15,7 @@ const Whyyou = () => {
 {
     whyyou.map((item)=>{
  // eslint-disable-next-line react/jsx-key
- return  <div className="justify-between p-7"   key={item.title} > 
+ return  <div className="justify-between mx-auto p-7"   key={item.title} > 
  <Card
       shadow={false}
       className="  grid lg:h-[25rem]  h-[28rem] w-full lg:w-[410px]   overflow-hidden text-center"

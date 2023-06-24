@@ -1,30 +1,40 @@
-import Navbar from "./components/Navbar"
+
 import { Route,Routes } from "react-router-dom"
 import Landing from "./pages/Landing"
-import ContactUs from "./components/ContactUs"
-import BookStore from "./components/BookStore"
+import ContactUs from "./pages/ContactUs"
+import BookStorep from "./pages/Bookstorep"
 import DonorForm from "./components/DonorForm"
 import BookSellForm from "./components/BookSellForm"
-import Donor from "./components/donor2"
-import About from "./components/About"
+import Donor from "./pages/Donor"
+import AboutUs from "./pages/Aboutus"
+import Blog from "./pages/Blog"
+import Cart from "./components/Cart"
+import Signadi from "./pages/SignIn"
+import Signupo from "./pages/Signup"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <div>
    
-<Navbar/>
+
 <Routes>
   <Route path="/" element={<Landing/>} />
-  <Route path="/about" element={<About/>}/>
+  <Route path="/aboutus" element={<AboutUs/>}/>
+  <Route path="/blogpage" element={<Blog/>}/>
   <Route path="/contactus" element={<ContactUs/>}/>
   <Route path="/donor" element={<Donor/>}/>
-  <Route path="/store" element={<BookStore/>}/>
+  <Route path="/store" element={<BookStorep/>}/>
   <Route path="/donate" element={<DonorForm/>}/>
   <Route path="/sell" element={<BookSellForm/>}/>
+  <Route path="/cart" element={<Cart/>}/>
+  <Route path="/login" element={<Signadi/>}/>
+  <Route path="/register" element={<Signupo/>}/>
 
   
-
+  
 </Routes>
+
     </div>
   )
 }

@@ -13,7 +13,7 @@ import Cart from "./components/Cart"
 import Signadi from "./pages/SignIn"
 import Signupo from "./pages/Signup"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Donor from "./components/donor2"
+
 
 import Aboutus from "./pages/Aboutus"
 

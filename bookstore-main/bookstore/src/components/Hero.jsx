@@ -17,7 +17,7 @@ const Hero = () => {
                 from applied literature to education resources 
                 we have lot of textbooks to offer you. we provide only the best books to you 
             </p>
-            <div className="lg:w-[300px] flex justify-between p-5">
+            <div className="lg:w-[400px] flex justify-between p-5">
            <Link to="./Login"><button className="primary-button">Log In</button></Link>
            <Link to="./register"><button className="primary-button">Register</button></Link>
            

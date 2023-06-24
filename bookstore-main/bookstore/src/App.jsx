@@ -7,6 +7,7 @@ import DonorForm from "./components/DonorForm"
 import BookSellForm from "./components/BookSellForm"
 import Donor from "./components/donor2"
 import About from "./components/About"
+import Aboutus from "./pages/Aboutus"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
   <Route path="/donor" element={<Donor/>}/>
   <Route path="/store" element={<BookStore/>}/>
   <Route path="/donate" element={<DonorForm/>}/>
+  <Route path="/aboutus" element={<Aboutus/>}/>
   <Route path="/sell" element={<BookSellForm/>}/>
 
   

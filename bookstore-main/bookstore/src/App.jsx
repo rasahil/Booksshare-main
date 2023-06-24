@@ -5,6 +5,7 @@ import ContactUs from "./pages/ContactUs"
 import BookStorep from "./pages/Bookstorep"
 import DonorForm from "./components/DonorForm"
 import BookSellForm from "./components/BookSellForm"
+
 import Donor from "./pages/Donor"
 import AboutUs from "./pages/Aboutus"
 import Blog from "./pages/Blog"
@@ -12,6 +13,10 @@ import Cart from "./components/Cart"
 import Signadi from "./pages/SignIn"
 import Signupo from "./pages/Signup"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Donor from "./components/donor2"
+
+import Aboutus from "./pages/Aboutus"
+
 
 const App = () => {
   return (
@@ -26,6 +31,7 @@ const App = () => {
   <Route path="/donor" element={<Donor/>}/>
   <Route path="/store" element={<BookStorep/>}/>
   <Route path="/donate" element={<DonorForm/>}/>
+  <Route path="/aboutus" element={<Aboutus/>}/>
   <Route path="/sell" element={<BookSellForm/>}/>
   <Route path="/cart" element={<Cart/>}/>
   <Route path="/login" element={<Signadi/>}/>

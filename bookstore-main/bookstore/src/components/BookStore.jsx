@@ -37,7 +37,7 @@ export default function Example() {
 
       {/* card row 1 */}
       <div className="bg-[#DDDDDD] mt-3 p-5"> 
-        <strong className="lg:ms-28 text-[22px] text-[blue] m-14 ">Competitive Book's</strong>
+        <strong className="lg:ms-28 text-[22px] text-[black] m-14 ">Competitive Book's</strong>
 
         <div className="  grid lg:grid-cols-4 md:grid-cols-2 mt-3 sm:grid-cols-1 ">
           {/* card one */}
@@ -178,7 +178,7 @@ export default function Example() {
 
       {/* card row 2 */}
       <div className="bg-[#DDDDDD] mt-3 p-5"> 
-        <strong className="lg:ms-14 text-[22px] text-[blue] m-14 ">Educational Book's</strong>
+        <strong className="lg:ms-14 text-[22px] text-[black] m-14 ">Educational Book's</strong>
 
         <div className="  grid lg:grid-cols-4  mt-3 md:grid-cols-2 sm:grid-cols-1">
           {/* card one */}
@@ -318,7 +318,7 @@ export default function Example() {
 
       {/* card row 3 */}
       <div className="bg-[#DDDDDD] mt-3 p-5"> 
-        <strong className="lg:ms-14 text-[22px] text-[blue] m-14 ">Novel's Book's</strong>
+        <strong className="lg:ms-14 text-[22px] text-[black] m-14 ">Novel's Book's</strong>
 
         <div className="  grid lg:grid-cols-4  mt-3 md:grid-cols-2 sm:grid-cols-1 ">
           {/* card one */}
@@ -458,7 +458,7 @@ export default function Example() {
 
       {/* card row 4 */}
       <div className="bg-[#DDDDDD] mt-3 p-5"> 
-        <strong className="lg:ms-14 text-[22px] text-[blue] m-14 ">Comic's Book's</strong>
+        <strong className="lg:ms-14 text-[22px] text-[black] m-14 ">Comic's Book's</strong>
 
         <div className="  grid lg:grid-cols-4  mt-3 md:grid-cols-2 sm:grid-cols-1 ">
           {/* card one */}

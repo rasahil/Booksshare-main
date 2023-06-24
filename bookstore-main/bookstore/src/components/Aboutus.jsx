@@ -31,7 +31,7 @@ const Middle = () => {
                 <div className="relative flex lg:w-80 flex-col rounded-xl bg-[#F2F2F2] bg-clip-border text-gray-700 shadow-md">
                     <div className="relative mx-4 lg:-mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                         <img
-                            src="./Image_About/bapuji.png"
+                            src="./Images_about/bapuji.png"
                             alt="img-blur-shadow"
                             layout="fill"
                         />
@@ -55,19 +55,19 @@ const Middle = () => {
         <div className='lg:p-[50px]'>
                 <div className='lg:flex justify-around '>
                     <div className=' relative flex lg:w-40 flex-col ' >
-                    <img src='./Image_About/handshake-angle-solid 1.png' alt="logo1" className='' />
+                    <img src='./Images_about/handshake-angle-solid 1.png' alt="logo1" className='' />
                     <p className='text-center font-[Inter] font-extrabold p-2'>3200+</p>
                     <p className='text-center font-[Inter] font-extrabold pb-3'>Volunteers in different countries, including combat zones. </p>
                     </div>
                     
                     <div className='relative flex lg:w-40 flex-col '>
-                    <img src='./Image_About/users-solid 1.png' alt="logo1" className=''/>
+                    <img src='./Images_about/users-solid 1.png' alt="logo1" className=''/>
                     <p className='text-center font-[Inter] font-extrabold p-2 '>6000+</p>
                     <p className='text-center font-[Inter] font-extrabold pb-3 '>Book Donor in the Maharashtra 
                         State for our campaigns.  </p>
                     </div>
                     <div className='relative flex lg:w-40  flex-col'>
-                    <img src='./Image_About/book-solid 1.png' alt="logo1" className='  ' />
+                    <img src='./Images_about/book-solid 1.png' alt="logo1" className='  ' />
                     <p className='text-center font-[Inter] font-extrabold p-2'>345,990+</p>
                     <p className='text-center font-[Inter] font-extrabold pb-3'>Used Books for new one to raise the World. </p>
                     </div>
@@ -80,7 +80,7 @@ const Middle = () => {
         {/* {bottom image} */}
 
         <div className='lg:mt-10'>
-            <img src='./Image_About/lo.png' alt="logo1" className='' />
+            <img src='./Images_about/lo.png' alt="logo1" className='' />
         </div>
 
         
